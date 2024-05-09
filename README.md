@@ -6,7 +6,7 @@ CEMA - University of Nairobi (UON) brings together a multidisciplinary consortiu
  OBJECTIVE<br>
  Create a machine learning model that is able to classify whether a blood smear is either uninfected or parasitized with the Plasmodium parasite.<br><br> 
  METHODOLOGY<br>
- ###1). Data Collection<br>
+ ### 1). Data Collection<br>
 For this task, I used a sample* of the data (thin blood smear slide images of segmented cells) from the simplified [Kaggle Dataset](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria) that was obtained under licenses from [The National Institutes of Health](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets). <br>
 2). Data Pre-Processing<br>
 After organizing the cell images based on whether they were uninfected or parasitized, the following step was to pre-process the images (both uninfected and parasitized cell images) using TensorFlow's `ImageDataGenerator` in rescaling, augmentation, and resizing.<br>
