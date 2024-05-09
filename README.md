@@ -10,7 +10,7 @@ CEMA - University of Nairobi (UON) brings together a multidisciplinary consortiu
 For this task, I used a sample* of the data (thin blood smear slide images of segmented cells) from the simplified [Kaggle Dataset](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria) that was obtained under licenses from [The National Institutes of Health](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets). 
  
 
- 
+ for any quest. email me via 
 
 
 POINT TO NOTE:<br>
