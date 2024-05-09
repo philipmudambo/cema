@@ -3,9 +3,9 @@ CEMA - University of Nairobi (UON) brings together a multidisciplinary consortiu
  
  ## CEMA Internship - Computer Science Track
  In this repo, you will find a machine learning model that I was assigned to come up with using TensorFlow.<br><br>
- OBJECTIVE<br>
+ ## OBJECTIVE<br>
  Create a machine learning model that is able to classify whether a blood smear is either uninfected or parasitized with the Plasmodium parasite.<br><br> 
- ##METHODOLOGY<br>
+ ## METHODOLOGY<br>
  ### 1). Data Collection<br>
 For this task, I used a sample* of the data (thin blood smear slide images of segmented cells) from the simplified [Kaggle Dataset](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria) that was obtained under licenses from [The National Institutes of Health](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets). <br>
 ### 2). Data Pre-Processing<br>
@@ -27,5 +27,5 @@ ii). Download the `CEMA ML.ipynb` from this repository & save it locally.
 
 For any questions or clarifications regarding this repo/task, write to me via philipmudambo1999@icloud.com<br><br>
 
-####POINT TO NOTE:<br>
+#### POINT TO NOTE:<br>
 Sample* - In an ordered manner, only the first few images were used in this task based on the availability of computing resources (my laptop's CPU and clock speeds). Training the model with the whole set of data would require a computer with very high processing speed and power. In case you need the whole data for that, you can obtain it from [NIH Official Website](https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/image-processing/malaria-datasheet.html)
