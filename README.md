@@ -21,11 +21,15 @@ This approach demonstrates a basic framework for building a model for malaria pa
 
  ## IDE GUIDE DOCUMENTATION
  For this task, I utilized Google's online platform - Google Colab, because of free GPU access which significantly sped up my model training & testing which are computationally intensive. If you prefer to perform this offline, then there are few modifications that should be made to the codes for the model to be successful. Here are the steps:<br><br>
-i). Download the ["datasets" folder](https://drive.google.com/drive/folders/1z_0JfgpLw0IgjNx68NjElKwohd_0LzbP?usp=drive_link) & save it in your local computer. If you prefer to use the entire non-sampled dataset, you can download the ["Kaggle Simplified Dataset"](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria) or the ["NIH Original Dataset"](https://data.lhncbc.nlm.nih.gov/public/Malaria/NIH-NLM-ThinBloodSmearsPf/index.html).
-ii). Download the `CEMA ML.ipynb` from this repository & save it locally.
-
+i). Download the ["datasets" folder](https://drive.google.com/drive/folders/1z_0JfgpLw0IgjNx68NjElKwohd_0LzbP?usp=drive_link) & save it in your local computer. If you prefer to use the entire non-sampled dataset, you can download the ["Kaggle Simplified Dataset"](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria) or the ["NIH Original Dataset"](https://data.lhncbc.nlm.nih.gov/public/Malaria/NIH-NLM-ThinBloodSmearsPf/index.html).<br>
+ii). Download the `CEMA ML.ipynb` from this repository & save it locally.<br>
+iii). Using your IDE, open the `CEMA ML.ipynb` & make changes to the following sections:<br>
+- delete the `GOOGLE DRIVE MOUNTING` cell block because you already have the data saved locally.<br>
+- delete the `EXECUTING SHELL COMMANDS` cell block in the `ENVIRONMENT SET-UP` section if you have the listed libraries already installed, but if you lack the listed libraries remove the `!` mark from the codes in the cell block & execute the cell.<br>
+- in the `IMAGE PATH DEFINITIONS` section, rename the data paths to that of your device where your respective folders & subfolders are located.<br>
+iv). Execute the other model sections without making any changes (unless you are making modifications).<br><br>
 
 For any questions or clarifications regarding this repo/task, write to me via philipmudambo1999@icloud.com<br><br>
 
-#### POINT TO NOTE:<br>
-Sample* - In an ordered manner, only the first few images were used in this task based on the availability of computing resources (my laptop's CPU and clock speeds). Training the model with the whole set of data would require a computer with very high processing speed and power. In case you need the whole data for that, you can obtain it from [NIH Official Website](https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/image-processing/malaria-datasheet.html)
+#### STARRED NOTE!<br>
+sample* - In an ordered manner, I sampled the first few images for this task based on the availability of my computing resources (laptop's CPU & clock speeds). Training the model with the whole set of data would require a computer with very high processing speed and power. In case you need the whole data for that, you can obtain it from [NIH Official Website](https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/image-processing/malaria-datasheet.html)
