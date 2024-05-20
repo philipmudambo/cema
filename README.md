@@ -29,8 +29,8 @@ iii). Using your IDE, open the `CEMA ML.ipynb` & make the following changes:<br>
 - in the `IMAGE PATH DEFINITIONS` section, rename the data paths to that of your device where your respective folders & subfolders are located.<br>
 iv). Execute the other model sections without making any changes (unless you are making modifications).<br><br>
 
-#### STARRED NOTE!<br>
+#### STARRED NOTE
 sample* - In an ordered manner, I sampled the first few images for this task based on the availability of my computing resources (laptop's CPU & clock speeds). Training the model with the whole set of data would require a computer with very high processing speed and power. In case you need the whole data for that, you can obtain it from [NIH Official Website](https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/image-processing/malaria-datasheet.html)
 
 #### HANDLING FILE ERRORS
-If it happens that when you try to open the `CEMA ML.ipynb` file and an error message `"An error occurred [...] Using nbformat v[...] and nbconvert v[...]"` occurs - a rare issue with how GitHub tries to render Jupyter Notebook's that's being opened, there's a possibility that GitHub might have rendering issues with the specific versions. The most convenient way to solve that issue is by using [Github Developer Website](https://github.dev/philipmudambo/cema/blob/main/CEMA%20ML.ipynb).
+If it happens that when you try to open the `CEMA ML.ipynb` file and an error message `"An error occurred [...] Using nbformat v[...] and nbconvert v[...]"` occurs - a rare issue with how GitHub tries to render Jupyter Notebook's that's being opened, there's a possibility that GitHub might have rendering issues with the specific versions. <br>The most convenient way to solve that issue is by using [Github Developer Website](https://github.dev/philipmudambo/cema/blob/main/CEMA%20ML.ipynb).
